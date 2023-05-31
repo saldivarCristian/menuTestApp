@@ -1,0 +1,67 @@
+{
+    "title": "Enlace a los proyectos en test",
+    "enlaces":[
+        {
+            "id":1,
+            "title": "Conectados",
+            "type":"botones",
+            "link":"/conectados",
+            "icon":"<FaInfoCircle />",
+            "menu":
+            {
+                "title": "Enlace Conectados test",
+                "enlaces":[
+                    {
+                        "id":1, 
+                        "name": "Admin", 
+                        "link":"/",
+                        "icon":"<FaInfoCircle />",
+                        "menu":[
+                            
+                        ] 
+                    },
+                    {
+                        "id":2, 
+                        "name": "Conectados", 
+                        "link":"/",
+                        "icon":"<FaInfoCircle />",
+                        "menu":[
+                            
+                        ] 
+                    }
+                ] 
+            }
+        },
+        {
+            "id":2,
+            "title": "Valeria",
+            "type":"botones",
+            "link":"/conectados",
+            "icon":"<FaInfoCircle />",
+            "menu":
+            {
+                "title": "Enlace Valeria test",
+                "enlaces":[
+                    {
+                        "id":1, 
+                        "name": "Admin", 
+                        "link":"/",
+                        "icon":"<FaInfoCircle />",
+                        "menu":[
+                            
+                        ] 
+                    },
+                    {
+                        "id":2, 
+                        "name": "Conectados", 
+                        "link":"/",
+                        "icon":"<FaInfoCircle />",
+                        "menu":[
+                            
+                        ] 
+                    }
+                ] 
+            }
+        }
+    ]
+}
