@@ -6,7 +6,9 @@
             "title": "Conectados",
             "type":"botones",
             "link":"/conectados",
-            "icon":"<FaInfoCircle />",
+            "target":"_self",
+            "color":"primary",
+            "icon":"FaInfoCircle",
             "menu":
             {
                 "title": "Enlace Conectados test",
@@ -14,8 +16,10 @@
                     {
                         "id":1, 
                         "name": "Admin", 
+                        "color":"primary",
                         "link":"/",
-                        "icon":"<FaInfoCircle />",
+                        "target":"_blank",
+                        "icon":"FaInfoCircle",
                         "menu":[
                             
                         ] 
@@ -24,7 +28,9 @@
                         "id":2, 
                         "name": "Conectados", 
                         "link":"/",
-                        "icon":"<FaInfoCircle />",
+                        "color":"primary",
+                        "target":"_blank",
+                        "icon":"FaInfoCircle",
                         "menu":[
                             
                         ] 
@@ -35,9 +41,11 @@
         {
             "id":2,
             "title": "Valeria",
+            "color":"primary",
             "type":"botones",
+            "target":"_self",
             "link":"/conectados",
-            "icon":"<FaInfoCircle />",
+            "icon":"FaInfoCircle",
             "menu":
             {
                 "title": "Enlace Valeria test",
@@ -45,8 +53,10 @@
                     {
                         "id":1, 
                         "name": "Admin", 
+                        "color":"primary",
                         "link":"/",
-                        "icon":"<FaInfoCircle />",
+                        "target":"_blank",
+                        "icon":"FaInfoCircle",
                         "menu":[
                             
                         ] 
@@ -54,8 +64,10 @@
                     {
                         "id":2, 
                         "name": "Conectados", 
+                        "color":"primary",
                         "link":"/",
-                        "icon":"<FaInfoCircle />",
+                        "target":"_blank",
+                        "icon":"FaInfoCircle",
                         "menu":[
                             
                         ] 

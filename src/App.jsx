@@ -12,7 +12,7 @@ import ComodinReca from './pages/ComodinReca/ComodinReca';
 // import Services from './pages/Services/Services';
 // import Contact from './pages/Contact/Contact';
 
-
+import  GenerationMenu from './components/GenerationMenu/GenerationMenu'
 
 const About = ()=>{}
 const Services = ()=>{}
@@ -22,12 +22,14 @@ const App = () => {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home/>} exact  />
+        <Route path="/" element={<Home />} exact />
         {/* <Route path="/:name" element={<GeneratioMenu/>} /> */}
-        <Route path="/menuStock" element={<Stock/>} />
-        <Route path="/menuComodinReca" element={<ComodinReca/>} />
+        <Route path="/conectados" element={<GenerationMenu />} />
+        <Route path="/comodin" element={<GenerationMenu />} />
+        <Route path="/menuStock" element={<GenerationMenu />} />
+        <Route path="/menuComodinReca" element={<GenerationMenu />} />
         {/* <Route path="/menoContact" element={Contact} /> */}
-         <Route path="*" component={<PageNotFound />} />
+        <Route path="*" component={<PageNotFound />} />
       </Routes>
       <Footer />
     </BrowserRouter>

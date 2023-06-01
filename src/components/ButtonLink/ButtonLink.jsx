@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 import './ButtonLink.css';
 
-const ButtonLink = ({ to, icon, children,className,color="primary" ,target="_self"}) => {
+const ButtonLink = ({ to, icon, children,className,color="primary" ,target="_self" ,obj={}}) => {
   return (
-    <Link to={to} target={target} className={`button-link ${className}`  }>
+    <Link  to={to} state={obj} target={target} className={`button-link ${className}`  }>
       <Button 
           fullWidth
           startIcon={icon}
