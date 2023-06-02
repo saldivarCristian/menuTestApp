@@ -6,17 +6,10 @@ import { Box } from '@mui/material';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Home from './pages/Home/Home';
-import Stock from './pages/Stock/Stock';
-import ComodinReca from './pages/ComodinReca/ComodinReca';
-// import About from './pages/About/About';
-// import Services from './pages/Services/Services';
-// import Contact from './pages/Contact/Contact';
+
 
 import  GenerationMenu from './components/GenerationMenu/GenerationMenu'
 
-const About = ()=>{}
-const Services = ()=>{}
-const Contact = ()=>{}
 const App = () => {
   return (
     <BrowserRouter>
@@ -24,8 +17,9 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} exact />
         {/* <Route path="/:name" element={<GeneratioMenu/>} /> */}
-        <Route path="/conectados" element={<GenerationMenu />} />
-        <Route path="/comodin" element={<GenerationMenu />} />
+        <Route path="/menuConectados" element={<GenerationMenu />} />
+        <Route path="/menuSistemaKit" element={<GenerationMenu />} />
+        <Route path="/menuValeria" element={<GenerationMenu />} />
         <Route path="/menuStock" element={<GenerationMenu />} />
         <Route path="/menuComodinReca" element={<GenerationMenu />} />
         {/* <Route path="/menoContact" element={Contact} /> */}

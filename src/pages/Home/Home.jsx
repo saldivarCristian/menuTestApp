@@ -6,7 +6,7 @@ import { Box } from "@mui/material";
 import { getJSON } from "../../services/getJson";
 import { CircularProgress } from "@mui/material";
 import iconos from "../../services/objIcons";
-
+import IconComponent from "../../services/objIcons"
 
 const Home = () => {
   const [datosJSON, setDatosJSON] = useState(null);
@@ -43,9 +43,9 @@ const Home = () => {
       </Typography>
       <Grid container spacing={2} justifyContent="center">
         { datosJSON.enlaces.map((item)=>{
-            const IconComponent = iconos[item.icon];
+            // const IconComponent = iconos[item.icon];
 
-            console.log(item.menu);
+            // console.log(item.menu);
 
             return (
               <Grid key={item.id} item xs={12} sm={6} md={4}>
@@ -55,7 +55,8 @@ const Home = () => {
                   key={item.id}
                   target={item.target}
                   to={item.link}
-                  icon={<IconComponent />}
+                  // icon={<IconComponent />}
+                  icon={ <IconComponent iconName="FaInfoCircle" />}
                   fullWidth
                 >
                   {item.title}

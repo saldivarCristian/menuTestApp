@@ -5,6 +5,7 @@ import { Box } from '@mui/material';
 import { useLocation, useParams } from "react-router-dom";
 import { CircularProgress } from "@mui/material";
 import iconos from "../../services/objIcons";
+import IconComponent from "../../services/objIcons";
 
 
 const GenerationMenu = () => {
@@ -35,9 +36,9 @@ const GenerationMenu = () => {
       </Typography>
       <Grid container spacing={2} justifyContent="center">
         {object.enlaces.map((item) => {
-          const IconComponent = iconos[item.icon];
+//          const IconComponent = iconos[item.icon];
 
-          console.log(item.menu);
+  //        console.log(item.menu);
 
           return (
             <Grid key={item.id} item xs={12} sm={6} md={4}>
@@ -47,7 +48,7 @@ const GenerationMenu = () => {
                 key={item.id}
                 target={item.target}
                 to={item.link}
-                icon={<IconComponent />}
+                icon={<IconComponent iconName="FaInfoCircle" />}
                 fullWidth
               >
                 {item.name}

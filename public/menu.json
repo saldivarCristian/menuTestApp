@@ -1,79 +1,174 @@
 {
-    "title": "Enlace a los proyectos en test",
-    "enlaces":[
-        {
-            "id":1,
-            "title": "Conectados",
-            "type":"botones",
-            "link":"/conectados",
-            "target":"_self",
-            "color":"primary",
-            "icon":"FaInfoCircle",
-            "menu":
-            {
-                "title": "Enlace Conectados test",
-                "enlaces":[
-                    {
-                        "id":1, 
-                        "name": "Admin", 
-                        "color":"primary",
-                        "link":"/",
-                        "target":"_blank",
-                        "icon":"FaInfoCircle",
-                        "menu":[
-                            
-                        ] 
-                    },
-                    {
-                        "id":2, 
-                        "name": "Conectados", 
-                        "link":"/",
-                        "color":"primary",
-                        "target":"_blank",
-                        "icon":"FaInfoCircle",
-                        "menu":[
-                            
-                        ] 
-                    }
-                ] 
-            }
-        },
-        {
-            "id":2,
-            "title": "Valeria",
-            "color":"primary",
-            "type":"botones",
-            "target":"_self",
-            "link":"/conectados",
-            "icon":"FaInfoCircle",
-            "menu":
-            {
-                "title": "Enlace Valeria test",
-                "enlaces":[
-                    {
-                        "id":1, 
-                        "name": "Admin", 
-                        "color":"primary",
-                        "link":"/",
-                        "target":"_blank",
-                        "icon":"FaInfoCircle",
-                        "menu":[
-                            
-                        ] 
-                    },
-                    {
-                        "id":2, 
-                        "name": "Conectados", 
-                        "color":"primary",
-                        "link":"/",
-                        "target":"_blank",
-                        "icon":"FaInfoCircle",
-                        "menu":[
-                            
-                        ] 
-                    }
-                ] 
-            }
-        }
-    ]
+  "title": "Enlace a los proyectos en test",
+  "enlaces": [
+    {
+      "id": 1,
+      "title": "Conectados",
+      "type": "botones",
+      "link": "/menuConectados",
+      "target": "_self",
+      "color": "primary",
+      "icon": "FaInfoCircle",
+      "menu": {
+        "title": "Enlace Conectados test",
+        "enlaces": [
+          {
+            "id": 1,
+            "name": "Admin",
+            "color": "primary",
+            "link": "/",
+            "target": "_blank",
+            "icon": "FaInfoCircle",
+            "menu": []
+          },
+          {
+            "id": 2,
+            "name": "Conectados",
+            "link": "/",
+            "color": "primary",
+            "target": "_blank",
+            "icon": "FaInfoCircle",
+            "menu": []
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "title": "Valeria",
+      "color": "primary",
+      "type": "botones",
+      "target": "_self",
+      "link": "/menuValeria",
+      "icon": "FaInfoCircle",
+      "menu": {
+        "title": "Enlace Valeria test",
+        "enlaces": [
+          {
+            "id": 1,
+            "name": "Admin",
+            "color": "primary",
+            "link": "/",
+            "target": "_blank",
+            "icon": "FaInfoCircle",
+            "menu": []
+          },
+          {
+            "id": 2,
+            "name": "Conectados",
+            "color": "primary",
+            "link": "/",
+            "target": "_blank",
+            "icon": "FaInfoCircle",
+            "menu": []
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "Sistema kit",
+      "color": "primary",
+      "type": "botones",
+      "target": "_self",
+      "link": "/menuSistemaKit",
+      "icon": "FaInfoCircle",
+      "menu": {
+        "title": "Enlace Sistema Kit test",
+        "enlaces": [
+          {
+            "id": 1,
+            "name": "Admin",
+            "color": "primary",
+            "link": "/",
+            "target": "_blank",
+            "icon": "FaInfoCircle",
+            "menu": []
+          },
+          {
+            "id": 2,
+            "name": "App Android",
+            "color": "primary",
+            "link": "/",
+            "target": "_blank",
+            "icon": "FaInfoCircle",
+            "menu": []
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "Comodin Reca",
+      "color": "primary",
+      "type": "botones",
+      "target": "_self",
+      "link": "/menuComodinReca",
+      "icon": "FaInfoCircle",
+      "menu": {
+        "title": "Enlace Comodin Reca test",
+        "enlaces": [
+          {
+            "id": 1,
+            "name": "Admin",
+            "color": "primary",
+            "link": "/",
+            "target": "_blank",
+            "icon": "FaInfoCircle",
+            "menu": []
+          },
+          {
+            "id": 2,
+            "name": "Web App",
+            "color": "primary",
+            "link": "/",
+            "target": "_blank",
+            "icon": "FaInfoCircle",
+            "menu": []
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "Stock",
+      "color": "primary",
+      "type": "botones",
+      "target": "_self",
+      "link": "/menuStock",
+      "icon": "FaInfoCircle",
+      "menu": {
+        "title": "Enlace Stock test",
+        "enlaces": [
+          {
+            "id": 1,
+            "name": "Admin",
+            "color": "primary",
+            "link": "/",
+            "target": "_blank",
+            "icon": "FaInfoCircle",
+            "menu": []
+          },
+          {
+            "id": 2,
+            "name": "Web App",
+            "color": "primary",
+            "link": "/",
+            "target": "_blank",
+            "icon": "FaInfoCircle",
+            "menu": []
+          },
+          {
+            "id": 3,
+            "name": "App",
+            "color": "primary",
+            "link": "/",
+            "target": "_blank",
+            "icon": "FaInfoCircle",
+            "menu": []
+          }
+        ]
+      }
+    }
+  ]
 }

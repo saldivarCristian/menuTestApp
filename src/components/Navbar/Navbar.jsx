@@ -24,7 +24,7 @@ const Navbar = () => {
             <ListItem button component={RouterLink} to="/" onClick={toggleDrawer}>
               <ListItemText primary="Inicio" />
             </ListItem>
-            <ListItem button component={RouterLink} to="/" onClick={toggleDrawer}>
+            {/* <ListItem button component={RouterLink} to="/" onClick={toggleDrawer}>
               <ListItemText primary="Conectados" />
             </ListItem>
             <ListItem button component={RouterLink} to="/" onClick={toggleDrawer}>
@@ -38,7 +38,7 @@ const Navbar = () => {
             </ListItem>
             <ListItem button component={RouterLink} to="/menuComodinReca" onClick={toggleDrawer}>
               <ListItemText primary="Comodin Reca" />
-            </ListItem>
+            </ListItem> */}
           </List>
         </Drawer>
       </Toolbar>
