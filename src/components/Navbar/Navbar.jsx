@@ -14,7 +14,7 @@ const Navbar = () => {
     <AppBar color="default">
       <Toolbar>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          Quattro Test App
+          Quattro - GMB
         </Typography>
         <IconButton color="inherit" onClick={toggleDrawer} edge="start" sx={{ mr: 2 }}>
           <MenuIcon />

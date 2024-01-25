@@ -6,7 +6,7 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
+  width: 100%!important;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -24,6 +24,8 @@ a:hover {
 } */
 
 body {
+  width: 100%;
+
   margin: 0;
   display: flex;
   /* place-items: center; */
@@ -57,6 +59,7 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
+    width: 100%;
     color: #213547;
     background-color: #ffffff;
   }

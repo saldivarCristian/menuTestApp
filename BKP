@@ -1,0 +1,41 @@
+ {
+      "id": 5,
+      "title": "Stock",
+      "color": "primary",
+      "type": "botones",
+      "target": "_self",
+      "link": "/menuStock",
+      "icon": "FaInfoCircle",
+      "menu": {
+        "title": "Enlace Stock test",
+        "enlaces": [
+          {
+            "id": 1,
+            "name": "Admin",
+            "color": "primary",
+            "link": "/",
+            "target": "_blank",
+            "icon": "FaInfoCircle",
+            "menu": []
+          },
+          {
+            "id": 2,
+            "name": "Web App",
+            "color": "primary",
+            "link": "/",
+            "target": "_blank",
+            "icon": "FaInfoCircle",
+            "menu": []
+          },
+          {
+            "id": 3,
+            "name": "App",
+            "color": "primary",
+            "link": "/",
+            "target": "_blank",
+            "icon": "FaInfoCircle",
+            "menu": []
+          }
+        ]
+      }
+    }

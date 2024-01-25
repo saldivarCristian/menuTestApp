@@ -1,5 +1,5 @@
 {
-  "title": "Enlace a los proyectos en test",
+  "title": "Menu GMB",
   "enlaces": [
     {
       "id": 1,
@@ -10,13 +10,14 @@
       "color": "primary",
       "icon": "FaInfoCircle",
       "menu": {
-        "title": "Enlace Conectados test",
+        "title": "Conectados",
         "enlaces": [
           {
             "id": 1,
             "name": "Admin",
             "color": "primary",
             "link": "/",
+            "image":"conectados.png",
             "target": "_blank",
             "icon": "FaInfoCircle",
             "menu": []
@@ -24,6 +25,7 @@
           {
             "id": 2,
             "name": "Conectados",
+            "image":"conectados.png",
             "link": "/",
             "color": "primary",
             "target": "_blank",
@@ -42,53 +44,38 @@
       "link": "/menuValeria",
       "icon": "FaInfoCircle",
       "menu": {
-        "title": "Enlace Valeria test",
+        "title": "Enlace Valeria",
         "enlaces": [
           {
             "id": 1,
             "name": "Admin",
-            "color": "primary",
-            "link": "/",
-            "target": "_blank",
-            "icon": "FaInfoCircle",
-            "menu": []
-          },
-          {
-            "id": 2,
-            "name": "Conectados",
+            "image":"flujo.svg",
             "color": "primary",
             "link": "/",
             "target": "_blank",
             "icon": "FaInfoCircle",
             "menu": []
           }
+         
         ]
       }
     },
     {
       "id": 3,
-      "title": "Sistema kit",
+      "title": "Sistema ADMIN",
       "color": "primary",
       "type": "botones",
       "target": "_self",
       "link": "/menuSistemaKit",
       "icon": "FaInfoCircle",
       "menu": {
-        "title": "Enlace Sistema Kit test",
+        "title": "Enlace Sistema ADMIN",
         "enlaces": [
           {
             "id": 1,
             "name": "Admin",
             "color": "primary",
-            "link": "/",
-            "target": "_blank",
-            "icon": "FaInfoCircle",
-            "menu": []
-          },
-          {
-            "id": 2,
-            "name": "App Android",
-            "color": "primary",
+            "image":"admin.svg",
             "link": "/",
             "target": "_blank",
             "icon": "FaInfoCircle",
@@ -106,12 +93,13 @@
       "link": "/menuComodinReca",
       "icon": "FaInfoCircle",
       "menu": {
-        "title": "Enlace Comodin Reca test",
+        "title": "Enlace Comodin Reca",
         "enlaces": [
           {
             "id": 1,
             "name": "Admin",
             "color": "primary",
+            "image":"logoauditoria.png",
             "link": "/",
             "target": "_blank",
             "icon": "FaInfoCircle",
@@ -121,47 +109,7 @@
             "id": 2,
             "name": "Web App",
             "color": "primary",
-            "link": "/",
-            "target": "_blank",
-            "icon": "FaInfoCircle",
-            "menu": []
-          }
-        ]
-      }
-    },
-    {
-      "id": 5,
-      "title": "Stock",
-      "color": "primary",
-      "type": "botones",
-      "target": "_self",
-      "link": "/menuStock",
-      "icon": "FaInfoCircle",
-      "menu": {
-        "title": "Enlace Stock test",
-        "enlaces": [
-          {
-            "id": 1,
-            "name": "Admin",
-            "color": "primary",
-            "link": "/",
-            "target": "_blank",
-            "icon": "FaInfoCircle",
-            "menu": []
-          },
-          {
-            "id": 2,
-            "name": "Web App",
-            "color": "primary",
-            "link": "/",
-            "target": "_blank",
-            "icon": "FaInfoCircle",
-            "menu": []
-          },
-          {
-            "id": 3,
-            "name": "App",
-            "color": "primary",
+            "image":"comod.png",
             "link": "/",
             "target": "_blank",
             "icon": "FaInfoCircle",
@@ -170,5 +118,6 @@
         ]
       }
     }
+   
   ]
 }
