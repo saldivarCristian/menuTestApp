@@ -16,19 +16,20 @@
             "id": 1,
             "name": "Admin",
             "color": "primary",
-            "link": "/",
+            "link": "https://gmb-juegos.quattropy.net/conectados",
             "image":"conectados.png",
-            "target": "_blank",
+            "target": "_self",
             "icon": "FaInfoCircle",
+            
             "menu": []
           },
           {
             "id": 2,
             "name": "Conectados",
             "image":"conectados.png",
-            "link": "/",
+            "link": "https://gmb-juegos.quattropy.net/conectados/admin",
             "color": "primary",
-            "target": "_blank",
+            "target": "_self",
             "icon": "FaInfoCircle",
             "menu": []
           }
@@ -51,8 +52,8 @@
             "name": "Admin",
             "image":"flujo.svg",
             "color": "primary",
-            "link": "/",
-            "target": "_blank",
+            "link": "https://gmb-juegos.quattropy.net/flujo/",
+            "target": "_self",
             "icon": "FaInfoCircle",
             "menu": []
           }
@@ -76,8 +77,19 @@
             "name": "Admin",
             "color": "primary",
             "image":"admin.svg",
-            "link": "/",
-            "target": "_blank",
+            "link": "https://gmb-juegos.quattropy.net/admin/",
+            "target": "_self",
+            "icon": "FaInfoCircle",
+            "menu": []
+          },
+
+          {
+            "id": 2,
+            "name": "App Caja",
+            "color": "primary",
+            "image":"admin.svg",
+            "link": "https://gmb-juegos.quattropy.net/descargas/app_caja.apk",
+            "target": "_self",
             "icon": "FaInfoCircle",
             "menu": []
           }
@@ -100,8 +112,8 @@
             "name": "Admin",
             "color": "primary",
             "image":"logoauditoria.png",
-            "link": "/",
-            "target": "_blank",
+            "link": "https://gmb-juegos.quattropy.net/recaudaciones",
+            "target": "_self",
             "icon": "FaInfoCircle",
             "menu": []
           },
@@ -110,8 +122,8 @@
             "name": "Web App",
             "color": "primary",
             "image":"comod.png",
-            "link": "/",
-            "target": "_blank",
+            "link": "https://gmb-juegos.quattropy.net/recaudaciones/webapp",
+            "target": "_self",
             "icon": "FaInfoCircle",
             "menu": []
           }

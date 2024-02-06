@@ -6,11 +6,13 @@ import { CircularProgress } from "@mui/material";
 import { FaInfoCircle, FaCog } from "react-icons/fa"; // Importa los iconos necesarios
 import iconos from "../../services/objIcons";
 import IconComponent from "../../services/objIcons";
+import { Handshake } from '@mui/icons-material';
 
 const GenerationMenu = () => {
+
   const location = useLocation();
   const object = location.state;
-
+  console.log(object)
   if (!object) {
     return (
       <Grid
@@ -25,6 +27,28 @@ const GenerationMenu = () => {
     );
   }
 
+  const handleLinkClick = (link) => {
+    alert();
+    console.log(link);
+    // Verificar si la propiedad 'link' es una URL válida
+    if (link && /^(http|https):\/\/.*/.test(link)) {
+      // La propiedad 'link' es una URL (http o https)
+      console.log('Es una URL válida:', link);
+      window.location.reload();
+    } else {
+      // La propiedad 'link' no es una URL
+      console.log('No es una URL válida o la propiedad link no está presente.');
+      // Recargar la página
+      window.location.reload();
+    }
+  }
+
+  if(object?.enlaces === undefined){
+    window.location.reload();
+
+  }
+
+
   return (
     <Box sx={{ paddingTop: "64px" }}>
       <Typography variant="h5" align="center" sx={{ mt: 10, mb: 5 }}>
@@ -34,7 +58,7 @@ const GenerationMenu = () => {
       </Typography>
       <Grid container spacing={2} justifyContent="center">
         {object.enlaces.map((item) => {
-          {console.log(item)}
+       //   {console.log(item)}
           // const imagePath = `/images/demo.jpg`; // Asegúrate de que imageName sea el nombre de tu imagen
           const imagePath = `/images/${item.image}`; // Asegúrate de que imageName sea el nombre de tu imagen
 
@@ -78,6 +102,9 @@ const GenerationMenu = () => {
                     target={item.target}
                     to={item.link}
                     size="small"
+                    onClick={() => {
+                      handleLinkClick(item.link);
+                    }}
                   >
                     Ir a la página
                   </ButtonLink>

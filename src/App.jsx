@@ -16,12 +16,12 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} exact />
-        {/* <Route path="/:name" element={<GeneratioMenu/>} /> */}
-        <Route path="/menuConectados" element={<GenerationMenu />} />
-        <Route path="/menuSistemaKit" element={<GenerationMenu />} />
-        <Route path="/menuValeria" element={<GenerationMenu />} />
-        <Route path="/menuStock" element={<GenerationMenu />} />
-        <Route path="/menuComodinReca" element={<GenerationMenu />} />
+        <Route path="/:name" element={<GenerationMenu/>} />
+        {/* <Route path="/menuConectados" element={<GenerationMenu />} /> */}
+        {/* <Route path="/menuSistemaKit" element={<GenerationMenu />} /> */}
+        {/* <Route path="/menuValeria" element={<GenerationMenu />} /> */}
+        {/* <Route path="/menuStock" element={<GenerationMenu />} /> */}
+        {/* <Route path="/menuComodinReca" element={<GenerationMenu />} /> */}
         {/* <Route path="/menoContact" element={Contact} /> */}
         <Route path="*" component={<PageNotFound />} />
       </Routes>
